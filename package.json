@@ -1,0 +1,13 @@
+{
+  "name": "obj-extractor",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.14.18",
+    "webgl-obj-loader": "^2.0.8"
+  },
+  "scripts": {
+    "build": "esbuild index.ts --bundle --minify --format=iife --outfile=main.js"
+  }
+}
